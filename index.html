@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Event RSVP Application</title>
+</head>
+<body>
+    <header>
+        <h1>Event RSVP Application</h1>
+    </header>
+    <div class="container">
+        <h2>Create Event</h2>
+        <div class="form-group">
+            <label for="eventName">Event Name:</label>
+            <input type="text" id="eventName" placeholder="Enter event name">
+        </div>
+        <div class="form-group">
+            <label for="eventDetails">Event Details:</label>
+            <textarea id="eventDetails" placeholder="Enter event details"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="eventDate">Event Date:</label>
+            <input type="date" id="eventDate">
+        </div>
+        <div class="form-group">
+            <label for="eventTime">Event Time:</label>
+            <input type="time" id="eventTime">
+        </div>
+        <button onclick="addEvent()">Add Event</button>
+        <button onclick="deleteAllData()">Delete All Data</button>
+
+        <div class="event-list">
+            <h2>Events</h2>
+            <div id="eventsContainer"></div>
+        </div>
+
+        <div class="guest-list">
+            <h2>Guests</h2>
+            <div id="guestsContainer"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
