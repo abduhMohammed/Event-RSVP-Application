@@ -1,3 +1,6 @@
 # Event-RSVP-Application
-HTML - CSS - Java Script 
-🔗 [Live Website]((https://github.com/abduhMohammed/Bondi/settings/pages))
+# Event-RSVP-Application
+
+This is a simple responsive website built with HTML, CSS and JS
+
+🔗 **Live Demo:** [[Click here to view the website](https://abduhmohammed.github.io/Event-RSVP-Application/)]
