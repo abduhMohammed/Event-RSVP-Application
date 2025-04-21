@@ -1,5 +1,4 @@
 # Event-RSVP-Application
-# Event-RSVP-Application
 
 This is a simple responsive website built with HTML, CSS and JS
 
